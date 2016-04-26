@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var console = require('../lib/console');
+
+console.info('component add...\n');
+program
+  .version(require('../package').version, '-v, --version')
+  .parse(process.argv);
+
+require('../lib/index')(process.argv[2], process.argv[3]).then(() => {
+  console.log('component add success!');
+}).catch(err => {
+  console.error('component add error\n\n', err);
+});

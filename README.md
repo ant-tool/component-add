@@ -1,5 +1,9 @@
 # component-add
 
+[![NPM version](https://img.shields.io/npm/v/component-add.svg?style=flat)](https://npmjs.org/package/component-add)
+
+----
+
 ### 模块使用工具：
 
 1. 将 npm 模块下的 `src 文件夹里的内容` 下载到指定文件夹，

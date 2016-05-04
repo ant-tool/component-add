@@ -44,10 +44,9 @@ describe('component-add', () => {
       cwd: dir,
     }).then(() => {
       assert(cat(join(componentDir, 'index.js')) !== null);
-      assert(cat(join(componentDir, 'context.js')) !== null);
       const pkg = JSON.parse(cat(join(dir, 'package.json')));
       const dependencies = pkg.dependencies;
-      assert(dependencies['object-assign'] && dependencies['es6-weak-map'] && dependencies['shallowequal']);
+      assert(dependencies['object-assign'] && dependencies['es6-weak-map']);
       done();
     });
   });

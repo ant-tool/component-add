@@ -13,3 +13,5 @@ require('../lib/index')(process.argv[2], process.argv[3]).then(() => {
 }).catch(err => {
   console.error('component add error\n\n', err);
 });
+
+require('atool-monitor').emit();

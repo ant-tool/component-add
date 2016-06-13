@@ -1,6 +1,6 @@
 {
   "name": "component-add",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "component add",
   "homepage": "http://github.com/ant-tool/component-add",
   "author": "yaya <yaya@uloveit.com.cn>",
@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "atool-monitor": "0.x",
-    "atool-pack": "^0.1.0",
+    "atool-pack": "^0.2.2",
     "colors": "^1.1.2",
     "commander": "^2.9.0",
     "os-tmpdir": "^1.0.1",
